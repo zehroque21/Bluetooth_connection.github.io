@@ -1,7 +1,7 @@
 console.log("Hello");
 
-document.getElementById('Hi').innerHTML = 'oioi';
+var button = document.getElementById('button')
 
-event.addEventListener('pointerup', function(event) {
+button.addEventListener('pointerup', function(event) {
     // Call navigator.bluetooth.requestDevice
   });
