@@ -1,6 +1,11 @@
 <html>
   <body>
     <h1>That's ok</h1>
-    <script type="text/javascript" src="app.js"></script>
+    <input type="button" onclick="device_caller()" value="Hello">
+    <script>
+      function device_caller(){
+        navigator.bluetooth.requestDevice
+      }
+    </script>
   </body>
 </html>
